@@ -1,0 +1,27 @@
+﻿<Window x:Class="PasswordGeneratorPro.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Über diese App" Height="300" Width="400"
+        Background="#1e1e1e" Foreground="White"
+        FontFamily="Segoe UI" FontSize="14"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        SizeToContent="Manual">
+    <Grid Margin="20">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            <TextBlock Text="Passwort Generator Pro" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock Text="Version: 1.0.0" Margin="0,0,0,5"/>
+            <TextBlock Text="Developer: Nikola Hadzic" Margin="0,0,0,5"/>
+            <TextBlock Text="Technologien: C#, .NET 8, WPF" Margin="0,0,0,20"/>
+
+            <Button Content="GitHub öffnen" Width="150" Height="30" Margin="0,0,0,10"
+                    Background="#007ACC" Foreground="White"
+                    Click="GitHubButton_Click"/>
+
+            <Button Content="Schließen" Width="100" Height="30" Click="Close_Click"
+                    Background="#444" Foreground="White"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

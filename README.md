@@ -33,8 +33,8 @@ A powerful yet easy-to-use WPF application for generating secure passwords. Buil
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hadzicni/Password-Generator.git
-   cd Password-Generator
+   git clone https://github.com/hadzicni/password-generator.git
+   cd password-generator
    ```
 
 2. Open `PasswordGenerator.csproj` in Visual Studio.
